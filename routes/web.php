@@ -19,3 +19,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function(){
     return view('components.front.dashboard');
 });
+
+Route::get('/about', function () {
+    return view('components.front.about', [
+        'name' => 'Made Suande',
+    ]);
+});
+
+
+Route::get('/posts', function () {
+    return view('components.front.posts');
+});

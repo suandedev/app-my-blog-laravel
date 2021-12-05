@@ -10,6 +10,9 @@
     <script defer src="https://unpkg.com/alpinejs@3.7.0/dist/cdn.min.js"></script>
 </head>
 <body class="bg-indigo-200 antialiased font-sans">
-    {{ $slot }}
+    <x-front.navbar/>
+    <main class="mt-6 mx-8">
+        {{ $slot }}
+    </main>
 </body>
 </html>
