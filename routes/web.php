@@ -30,3 +30,7 @@ Route::get('/about', function () {
 Route::get('/posts', function () {
     return view('components.front.posts');
 });
+
+Route::get('/post', function () {
+    return view('components.front.post');
+});

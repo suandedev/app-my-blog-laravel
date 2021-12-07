@@ -5,8 +5,22 @@
     </p>
 </div>
 <h1 class="text-center text-xl text-gray-800 font-semibold capitalize mt-4">
-    judul post pertama
+    <a href="/post" class="text-indigo-500">
+        judul post pertama
+    </a>
 </h1>
+<p class="text-center">
+   <small>
+        by 
+        <a href="" class="text-indigo-500">
+            made
+        </a>
+        kategory 
+        <a href="" class="text-indigo-500">
+            personal
+        </a>
+   </small>
+</p>
 <p class="text-center">
     excerpt
 </p>
