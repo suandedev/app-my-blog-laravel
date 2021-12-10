@@ -6,7 +6,7 @@
     <section>
         <x-front.bigcard/>
     </section>
-    <section class="grid grid-cols-3 gap-2">
+    <section class="grid grid-cols-3 gap-2 mt-4">
        <x-front.smallcard/>
     </section>
 </x-main>

@@ -34,3 +34,7 @@ Route::get('/posts', function () {
 Route::get('/post', function () {
     return view('components.front.post');
 });
+
+Route::get('/login', function() {
+    return view('components.auth.login');
+});
