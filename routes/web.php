@@ -38,3 +38,16 @@ Route::get('/post', function () {
 Route::get('/login', function() {
     return view('components.auth.login');
 });
+
+Route::get('/register', function() {
+    return view('components.auth.register');
+});
+
+
+Route::get('/dashboard', function() {
+    return view('layouts.main-admin');
+});
+
+Route::get('/admin/blog', function() {
+ return view('');
+});
